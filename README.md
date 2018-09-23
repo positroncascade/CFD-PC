@@ -17,7 +17,7 @@ interThermalPhaseChangeFoam is an extensible open source volume-of-fluid (VOF) b
 
 ![Dropwise Condensation Example](http://sites.psu.edu/mtfe/wp-content/uploads/sites/23865/2015/04/DropwiseCond_Sigma_1E-3sm.gif)
 
-If you use this solver in a project or scholarly work, we ask that you include a citation for [Rattner and Garimella (2014)](http://heattransfer.asmedigitalcollection.asme.org/article.aspx?articleid=1829850). 
+If you use this solver in a project or scholarly work, we ask that you include a citation for [Rattner and Garimella (2014)](http://heattransfer.asmedigitalcollection.asme.org/article.aspx?articleid=1829850) and [Nabil and Rattner (2016)](http://www.sciencedirect.com/science/article/pii/S2352711016300309). 
 
 ## Installation
 The current version of the code uses the [OpenFOAM 2.4.0 libraries](http://www.openfoam.org/archive/2.4.0/download/source.php). The code has been developed and tested using a source pack installation, but should be compatible with a installation using a package manager (i.e., [for Ubuntu/Debian](http://www.openfoam.org/archive/2.4.0/download/ubuntu.php)). Some of the tutorial cases use [swak4Foam](https://openfoamwiki.net/index.php/Contrib/swak4Foam) to initialize fields and set boundary conditions. [GNU Octave](https://www.gnu.org/software/octave/) can be used to run validation scripts in the tutorial cases.
@@ -128,5 +128,6 @@ This research was generously supported, in part, by the US Department of Energy 
 * Fujita, T., Ueda, T., 1978, Heat transfer to falling liquid films and film breakdown, International Journal of Heat and Mass Transfer, 21, 97-108.
 * Raeini, A.Q., Blunt, M.J.,  Bijeljic, B., 2012. Modelling two-phase flow in porous media at the pore scale using the volume-of-fluid method, Journal of Computational Physics, 17(1), 5653–5668. [doi:10.1016/j.jcp.2012.04.011](http://dx.doi.org/10.1016/j.jcp.2012.04.011).
 * Rattner, A.S., Garimella, S., 2014. Simple mechanistically consistent formulation for volume-of-fluid based computations of condensing flows. Journal of Heat Transfer 136 (7): 71501-1–9. [DOI: 10.1115/1.4026808](http://heattransfer.asmedigitalcollection.asme.org/article.aspx?articleid=1829850).
+* Nabil, M., Rattner, A.S., 2016. interThermalPhaseChangeFoam—A framework for two-phase flow simulations with thermally driven phase change. SoftwareX 5: 216–226. [DOI: 10.1016/j.softx.2016.10.002](http://www.sciencedirect.com/science/article/pii/S2352711016300309).
 * Rattner, A.S., 2015. Single-pressure absorption refrigeration systems for low-source-temperature applications. Ph.D. Thesis, Georgia Institute of Technology, Atlanta, GA. [Link](https://smartech.gatech.edu/handle/1853/53912).
 * Yang, Z., Peng, X. F., Ye, P., 2008. Numerical and experimental investigation of two phase flow during boiling in a coiled tube. International Journal of Heat and Mass Transfer, 51(5-6), 1003–1016. [doi.org/10.1016/j.ijheatmasstransfer.2007.05.025](http://doi.org/10.1016/j.ijheatmasstransfer.2007.05.025).
